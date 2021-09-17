@@ -1,0 +1,436 @@
+html {
+  margin: 0;
+  color: #362783;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.absolute {
+  position: absolute;
+  z-index: 1;
+}
+
+/* @font-face {
+  font-family: 'Songer';
+  src: url("/font/SONGER_SE_ExtraBold.otf") format("opentype");
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0 50px;
+  background-image: url('img/background/lenta.png');
+  background-position: top 0 right 0;
+  background-repeat: no-repeat;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+  /* align-items: center; */
+}
+
+.logo {
+  margin-left: -95px;
+  margin-bottom: 55px;
+}
+
+.hero__text {
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.app-wrap, .qr-wrap {
+  margin-top: 30px;
+}
+
+.qr-wrap img {
+  display: block;
+}
+
+.qr-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero__img {
+  padding-right: 160px;
+}
+
+.coffee {
+  top: 50px;
+  left: 0;
+}
+
+.coffee-bean-1 {
+  margin-top: 85px;
+  left: 79px;
+}
+
+.coffee-bean-2 {
+  margin-top: 120px;
+  left: 79px;
+}
+
+.coffee-bean-3 {
+  margin-top: 187px;
+  left: 120px;
+}
+
+.coffee-bean-4 {
+  margin-top: 189px;
+  left: 0;
+}
+
+.choco {
+  top: 160px;
+  left: 0;
+}
+
+.herb-1 {
+  top: 0;
+  right: 95px;
+}
+
+.herb-2 {
+  top: 315px;
+  right: 0;
+}
+
+.pepper {
+  top: 40px;
+  right: 0;
+}
+
+.tomato {
+  top: 420px;
+  right: 130px;
+}
+
+.leaf {
+  top: 186px;
+  right: 240px;
+}
+
+.onion {
+  top: 510px;
+  right: 0;
+}
+
+.shroom {
+  top: 675px;
+  right: 220px;
+}
+
+.broccoli {
+  top: 783px;
+  right: 0;
+}
+
+.egg {
+  top: 367px;
+  right: 840px;
+}
+
+.leaf-2 {
+  top: 654px;
+  left: 851px;
+}
+
+.leaf-3 {
+  top: 880px;
+  left: 277px;
+}
+
+.leaf-4 {
+  top: 129px;
+  left: 952px;
+}
+
+.leaf-5 {
+  top: 684px;
+  right: 800px;
+}
+
+.leaf-6 {
+  top: 535px;
+  right: 760px;
+}
+
+.leaf-7 {
+  top: 1052px;
+  right: 517px;
+}
+
+.meal {
+  top: 900px;
+}
+
+.paprika {
+  top: 1040px;
+  right: 50px;
+}
+
+.info {
+  position: relative;
+  padding-left: 520px;
+  text-align: left;
+}
+
+.info__heading {
+  font-size: 72px;
+  color: #262140;
+  width: 50%;
+}
+
+.info__text {
+  font-size: 25px;
+  margin-top: 30px;
+  color: #262140;
+}
+
+.showcase {
+  margin-top: 200px;
+  position: relative;
+}
+
+.showcase__heading {
+  font-size: 76px;
+  color: #262140;
+  text-align: center;
+}
+
+.pasta-5 {
+  top: 180px;
+  left: 110px;
+}
+
+.egg-2 {
+  top: 300px;
+  left: 0;
+}
+
+.egg-3 {
+  top: 350px;
+  left: 206px;
+}
+
+.egg-4 {
+  top: 450px;
+  left: 310px;
+  z-index: -1;
+}
+
+.pasta {
+  top: 530px;
+  left: 0;
+}
+
+.pasta-2 {
+  top: 750px;
+  left: 0;
+}
+
+.pasta-1 {
+  top: 610px;
+  left: 210px;
+}
+
+.pasta-3 {
+  top: 950px;
+  left: 50px;
+}
+
+.pasta-4 {
+  top: 1030px;
+  left: 30px;
+}
+
+.pasta-5 {
+  top: 170px;
+  left: 110px;
+}
+
+.sauce {
+  top: 270px;
+  right: 0;
+  z-index: 2;
+}
+
+.meat {
+  top: 350px;
+  right: 0;
+}
+
+.creme {
+  top: 1000px;
+  right: 0;
+}
+
+.quote {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  color: #262140;
+  opacity: 0.18;
+  transform: rotate(-33.5deg);
+  top: 200px;
+  right: 0;
+}
+
+.bubble {
+  padding: 35px;
+  border-radius: 20px;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.promo-wrap {
+  height: 100px;
+  max-width: 1310px;
+  margin-left: 260px;
+  margin-top: 140px;
+}
+
+.row {
+  position: relative;
+}
+
+.row-item {
+  position: absolute;
+}
+
+.sale {
+  margin-top: -55px;
+  left: 440px;
+}
+
+.desserts {
+  margin-top: 15px;
+  left: 0;
+}
+
+.delivery {
+  right: 0;
+  width: 308px;
+  height: 233px;
+  background-color: #FFD600;
+  color: #46415B;
+}
+
+.delivery::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -35px;
+  border: 20px solid transparent; border-left: 20px solid #FFD600; border-top: 20px solid #FFD600;
+}
+
+.row-one {
+  background-color: lightblue;
+}
+
+.fruit {
+  top: 240px;
+  left: 60px;
+}
+
+.prices {
+  min-width: 440px;
+  height: 223px;
+  left: 525px;
+  top: 220px;
+  background-color: #362783;
+  color: white;
+}
+
+.prices::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: -34px;
+  border: 20px solid transparent; border-left: 20px solid #362783; border-top: 20px solid #362783;
+}
+
+.okroshka {
+  top: 270px;
+  right: -20px;
+}
+
+.seasonal {
+  width: 343px;
+  height: 203px;
+  background-color: #FFD600;
+  color: #46415B;
+  top: 480px;
+  left: 10px;
+}
+
+.care {
+  top: 485px;
+  left: 350px;
+}
+
+.icecream {
+  top: 465px;
+  right: -50px;
+}
+
+.chicken {
+  top: 730px;
+  left: 50px;
+}
+
+.goods {
+  left: 440px;
+  top: 740px;
+  min-width: 400px;
+  height: 233px;
+  background-color: #362783;
+  color: white;
+}
+
+.goods::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 235px;
+  margin-left: -34px;
+  border: 20px solid transparent; border-left: 20px solid #362783; border-top: 20px solid #362783;
+}
+
+.health {
+  top: 730px;
+  right: 65px;
+}
+
+.weekly {
+  top: 920px;
+  right: 0;
+}
