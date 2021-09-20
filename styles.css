@@ -1,7 +1,6 @@
 html {
   margin: 0;
   color: #362783;
-  overflow: hidden;
 }
 
 * {
@@ -16,11 +15,6 @@ h1, p {
   position: absolute;
   z-index: 1;
 }
-
-/* @font-face {
-  font-family: 'Songer';
-  src: url("/font/SONGER_SE_ExtraBold.otf") format("opentype");
-} */
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -320,6 +314,11 @@ body {
   position: relative;
 }
 
+.row-two {
+  top: 200px;
+  height: 50px;
+}
+
 .row-item {
   position: absolute;
 }
@@ -351,12 +350,8 @@ body {
   border: 20px solid transparent; border-left: 20px solid #FFD600; border-top: 20px solid #FFD600;
 }
 
-.row-one {
-  background-color: lightblue;
-}
-
 .fruit {
-  top: 240px;
+  top: 50px;
   left: 60px;
 }
 
@@ -364,7 +359,7 @@ body {
   min-width: 440px;
   height: 223px;
   left: 525px;
-  top: 220px;
+  top: 30px;
   background-color: #362783;
   color: white;
 }
@@ -373,43 +368,63 @@ body {
   content: '';
   display: block;
   position: absolute;
-  margin-top: 230px;
-  margin-left: -34px;
+  margin-top: 215px;
+  margin-left: -35px;
   border: 20px solid transparent; border-left: 20px solid #362783; border-top: 20px solid #362783;
 }
 
 .okroshka {
-  top: 270px;
+  top: 80px;
   right: -20px;
+}
+
+.row-three {
+  top: 430px;
+  height: 100px;
 }
 
 .seasonal {
   width: 343px;
   height: 203px;
+  padding: 35px;
   background-color: #FFD600;
   color: #46415B;
-  top: 480px;
+  top: 30px;
   left: 10px;
 }
 
+.seasonal::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: -35px;
+  border: 20px solid transparent; border-left: 20px solid #FFD600; border-top: 20px solid #FFD600;
+}
+
 .care {
-  top: 485px;
+  top: 25px;
   left: 350px;
 }
 
 .icecream {
-  top: 465px;
+  top: 20px;
   right: -50px;
 }
 
+.row-four {
+  top: 600px;
+  height: 100px;
+}
+
 .chicken {
-  top: 730px;
+  top: 20px;
   left: 50px;
 }
 
 .goods {
   left: 440px;
-  top: 740px;
+  top: 30px;
   min-width: 400px;
   height: 233px;
   background-color: #362783;
@@ -421,16 +436,22 @@ body {
   display: block;
   position: absolute;
   margin-top: 235px;
-  margin-left: -34px;
+  margin-left: -35px;
   border: 20px solid transparent; border-left: 20px solid #362783; border-top: 20px solid #362783;
 }
 
 .health {
-  top: 730px;
+  top: 20px;
   right: 65px;
 }
 
+.row-five {
+  top: 700px;
+  /* height: 100px;
+  background-color: limegreen; */
+}
+
 .weekly {
-  top: 920px;
+  top: 0;
   right: 0;
 }
