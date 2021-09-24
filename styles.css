@@ -38,7 +38,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 160px;
-  /* align-items: center; */
 }
 
 .logo {
@@ -447,8 +446,6 @@ body {
 
 .row-five {
   top: 700px;
-  /* height: 100px;
-  background-color: limegreen; */
 }
 
 .weekly {
